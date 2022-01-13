@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.kakaopay.investment.KakaoPayInvestmentServiceApplicationTest, org.scalatest.tools.Framework$$anon$1@457c9a2a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKakaoPayInvestmentServiceApplicationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKakaoInvestmentServiceApplicationTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 상품 조회시 모집기간 이내의 상품만 조회되어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 모집기간 이외의 기간에 대한 조회시 응답을 하지 않고 에러를 내보낸다[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 투자하기 수행시 정상적으로 투자정보가 저장되어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 존재하지 않는 상품 ID를 입력하는 경우 투자하기 기능이 동작하지 않아야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 0보다 작은 금액으로 투자하는 경우 투자하기 기능이 동작하지 않아야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 같은 유저가 같은 상품에 중복투자 할 수 없어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 투자금액이 총 모집금액을 넘는 경우 잔여한도 만큼만 투자되고 상품은 sold-out 상태로 변경한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sold-out 된 제품을 투자하려 하는 경우 투자하기 기능이 동작하지 않아야 하며 Sold-out 상태를 확인할 수 있어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 투자한 이력이 없는 사용자의 나의 투자상품 조회시 반환된 결과값이 없어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should 나의 투자상품 조회시 해당 사용자에 대한 투자정보가 정상적으로 조회되어야 한다.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 472 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.kakaopay.investment.KakaoPayInvestmentServiceApplicationTest[0m
